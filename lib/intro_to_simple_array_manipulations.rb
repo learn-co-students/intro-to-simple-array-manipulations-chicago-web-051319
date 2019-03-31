@@ -2,8 +2,8 @@ def using_push(array, string)
     array.push(string)
 end
 
-def using_upshift(array, string)
-    array.upshift(string)
+def using_unshift(array, string)
+    array.unshift(string)
 end
 
 def using_pop(array)
@@ -23,18 +23,18 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-    array1.comcat(array2)
+    array1.concat(array2)
 end
 
 def using_insert(array, element)
     array.insert(4, element)
 end
 
-def using_uniq
+def using_uniq(array)
     array.uniq
 end
 
-def using_flatten
+def using_flatten(array)
     array.flatten
 end
 
